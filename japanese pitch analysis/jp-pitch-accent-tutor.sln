@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2008
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "jp-pitch-accent-tutor", "jp-pitch-accent-tutor\jp-pitch-accent-tutor.vcxproj", "{B35A45FB-2A73-4E78-8D76-3E710E6C547D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8B8409D1-7E88-4288-9B39-D3BACC67F75A} = {8B8409D1-7E88-4288-9B39-D3BACC67F75A}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "dictionary-builder", "dictionary-builder\dictionary-builder.vcxproj", "{8B8409D1-7E88-4288-9B39-D3BACC67F75A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B35A45FB-2A73-4E78-8D76-3E710E6C547D}.Debug|x64.ActiveCfg = Debug|x64
+		{B35A45FB-2A73-4E78-8D76-3E710E6C547D}.Debug|x64.Build.0 = Debug|x64
+		{B35A45FB-2A73-4E78-8D76-3E710E6C547D}.Release|x64.ActiveCfg = Release|x64
+		{B35A45FB-2A73-4E78-8D76-3E710E6C547D}.Release|x64.Build.0 = Release|x64
+		{8B8409D1-7E88-4288-9B39-D3BACC67F75A}.Debug|x64.ActiveCfg = Debug|x64
+		{8B8409D1-7E88-4288-9B39-D3BACC67F75A}.Debug|x64.Build.0 = Debug|x64
+		{8B8409D1-7E88-4288-9B39-D3BACC67F75A}.Release|x64.ActiveCfg = Release|x64
+		{8B8409D1-7E88-4288-9B39-D3BACC67F75A}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {32C8D910-FF96-4335-B39D-AD474A724D24}
+	EndGlobalSection
+EndGlobal
